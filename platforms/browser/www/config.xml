@@ -2,10 +2,10 @@
 <widget id="com.cornifex.contaminationcounter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Contamination Counter</name>
     <description>
-        A blank PhoneGap app.
+        Contamination zones for a board game.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="me@example.com" href="http://cornifex.com">
+        Justin Cornell
     </author>
     <content src="index.html" />
     <access origin="*" />

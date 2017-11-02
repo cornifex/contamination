@@ -7,6 +7,8 @@ html {
 }
 body {
     min-height: 100%;
+    font-family: Gloria;
+    color: #333;
 }
 body {
 
@@ -21,10 +23,52 @@ body {
     display: table;
     clear: both;
 }
+#zones-wrapper {
+    width: 90vw;
+    float: left;
+}
+#controls-wrapper {
+    background: #000;
+    height: 100vh;
+    float: right;
+    width: 10vw;
+    color: #fff;
+    font-size: 5vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5vh;
+}
+
+#controls-wrapper .control {
+    margin-bottom: 5vh;
+}
+
 .zone {
     height: 50vh;
-    width: 33vw;
+    width: 30vw;
     float: left;
     box-sizing: border-box;
     border: solid 1px #000;
+    text-align: center;
+}
+
+.zone-title-wrapper {
+    border-bottom: solid 2px #333;
+    background: #558B2F;
+    padding: 3vh 0;
+    color: #fff;
+}
+
+.zone-title-wrapper h2 {
+    margin: 0;
+    font-size: 5vh;
+    text-shadow: #333 2px 2px 0;
+}
+
+.zone-contamination-wrapper {
+    font-size: 21vh;
+}
+
+.zone-contamination-controls {
+    font-size: 5vh;
 }
