@@ -1,0 +1,30 @@
+@font-face {
+    src: url('../fonts/GloriaHallelujah.ttf');
+    font-family: Gloria;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+body {
+
+}
+
+.clearfix {
+    position: relative;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.zone {
+    height: 50vh;
+    width: 33vw;
+    float: left;
+    box-sizing: border-box;
+    border: solid 1px #000;
+}

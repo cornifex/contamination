@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <title>Contamination Counter</title>
+</head>
+<body>
+<div id="body-inner" class="clearfix">
+    <div id="controls-wrapper" class="clearfix" style="display: none;">
+        <div class="control">
+            <button id="refresh-trigger">Refresh</button>
+        </div>
+        <div class="control">
+            <button id="difficulty-trigger">Change Difficulty</button>
+        </div>
+    </div>
+    <div id="zones-wrapper" class="clearfix">
+        <div class="zone">
+            <div class="zone-title-wrapper">
+                <h2>Zone 1</h2>
+            </div>
+            <div class="zone-contamination-wrapper">
+                <div class="zone-contamination-count" id="zone-contamination-count-1">
+                    0
+                </div>
+                <div class="zone-contamination-controls">
+                    <div class="zone-contamination-controls-button-wrapper">
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-1" data-op="decrease">-</button>
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-1" data-op="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone">
+            <div class="zone-title-wrapper">
+                <h2>Zone 2</h2>
+            </div>
+            <div class="zone-contamination-wrapper">
+                <div class="zone-contamination-count" id="zone-contamination-count-2">
+                    0
+                </div>
+                <div class="zone-contamination-controls">
+                    <div class="zone-contamination-controls-button-wrapper">
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-2" data-op="decrease">-</button>
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-2" data-op="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone">
+            <div class="zone-title-wrapper">
+                <h2>Zone 3</h2>
+            </div>
+            <div class="zone-contamination-wrapper">
+                <div class="zone-contamination-count" id="zone-contamination-count-3">
+                    0
+                </div>
+                <div class="zone-contamination-controls">
+                    <div class="zone-contamination-controls-button-wrapper">
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-3" data-op="decrease">-</button>
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-3" data-op="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone">
+            <div class="zone-title-wrapper">
+                <h2>Zone 4</h2>
+            </div>
+            <div class="zone-contamination-wrapper">
+                <div class="zone-contamination-count" id="zone-contamination-count-4">
+                    0
+                </div>
+                <div class="zone-contamination-controls">
+                    <div class="zone-contamination-controls-button-wrapper">
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-4" data-op="decrease">-</button>
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-4" data-op="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone">
+            <div class="zone-title-wrapper">
+                <h2>Zone 5</h2>
+            </div>
+            <div class="zone-contamination-wrapper">
+                <div class="zone-contamination-count" id="zone-contamination-count-5">
+                    0
+                </div>
+                <div class="zone-contamination-controls">
+                    <div class="zone-contamination-controls-button-wrapper">
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-5" data-op="decrease">-</button>
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-5" data-op="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone">
+            <div class="zone-title-wrapper">
+                <h2>Zone 6</h2>
+            </div>
+            <div class="zone-contamination-wrapper">
+                <div class="zone-contamination-count" id="zone-contamination-count-6">
+                    0
+                </div>
+                <div class="zone-contamination-controls">
+                    <div class="zone-contamination-controls-button-wrapper">
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-6" data-op="decrease">-</button>
+                        <button class="zone-contamination-op" data-control-target-zone="zone-contamination-count-6" data-op="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="difficulty-wrapper" class="clearfix" style="display: none;">
+        <div id="difficulty-main">
+            <div class="difficulty-button-wrapper">
+                <button>Easy</button>
+            </div>
+            <div class="difficulty-button-wrapper">
+                <button>Medium</button>
+            </div>
+            <div class="difficulty-button-wrapper">
+                <button>Hard</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
