@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 switch (op) {
                     case 'increase':
-                        target.innerHTML = targetContent + 1;
+                        if (targetContent < 6) {
+                            target.innerHTML = targetContent + 1;
+                        }
                         break;
                     case 'decrease':
                         if (targetContent > 0) {
